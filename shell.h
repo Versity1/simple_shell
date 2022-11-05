@@ -26,7 +26,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 extern char **environ;
 
 /**
- * struct list_path - Linked list containing PATH directories
+ * struct list_path - linked list containing PATH directories
  * @dir: directory in path
  * @p: pointer to next node
  */
